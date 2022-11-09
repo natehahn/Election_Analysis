@@ -85,10 +85,10 @@ with open(file_to_save, "w") as txt_file:
 
         #Determine the winning candidate and vote count
         if (votes > winning_count) and (vote_percentage > winning_percentage):
-        # Set variables
+            # Set variables
             winning_count = votes
             winning_percentage = vote_percentage
-        # Winning candidate
+            # Winning candidate
             winning_candidate = candidate_name
 
     winning_candidate_summary = (
