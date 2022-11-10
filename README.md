@@ -28,3 +28,20 @@ The analysis of the election are as follow:
     - Dianna Degette by a comfortable margin
 
 ## Challenge Overview
+
+In this challenge, Tom requested that we also include county specific results for the election.  This allowed the election commision to identify where favor was for each candidate.
+
+# Summary of Challenge
+The analysis of county data was as follows:
+- Three counties were included in this election:
+   - Arapahoe
+   - Denver
+   - Jefferson
+-  County results were:
+    - Arapahoe voters had 6.7% of the total vote with 24801 votes.
+    - Denver voters had 82.8%  of the total votes with 306055 votes.
+    - Jefferson voters had 10.5% of the total votes with 38855 votes.
+-  The largest voter turnout by far was Denver county.
+
+## Final Thoughts
+I believe this code accomplished what you were looking for.  The great thing about the code is that it could be used for any election with any amount of voters.  If you were interested in pulling more statistics, like voter demographics by age or race.  Simplying adding that data field to the spreadsheet and applying another for loop will allow you to add add this analysis.  Duplicating the code that is already there with new variables for age, variables to hold the count of all ages, and dictionaries to hold the ages of individuals.  Finally, a if-elif statement to place individuals into an age group for easier referencing.  
